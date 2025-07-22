@@ -1,0 +1,12 @@
+# Stick / button mapping
+channels:
+  roll:     "axis:0"
+  pitch:    "axis:1,negate"
+  throttle: "axis:3"
+  yaw:      "axis:2"
+aux1: "button:0"   # cross  -> arm
+aux2: "button:3"   # square -> angle mode
+
+# RC tuning
+expo: 0.2
+deadband: 5
